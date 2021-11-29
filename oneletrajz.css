@@ -8,7 +8,7 @@
 }
 
 .container {
-  background:url('./öneletrajz/fv.jpg');
+  background:url('./fv.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   display: flex;
