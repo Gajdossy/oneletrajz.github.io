@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 2.5;
+    
+    
+}
+
+.container {
+  background:url('../öneletrajz/fv.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.cv-container {
+    padding: 20px;
+    
+
+}
+
+.cv-container h1 {
+    text-align: center;
+    
+}
+
+.content-container {
+    display: flex;
+    
+}
+
+.content-container .content-right {
+    margin-left: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+
+}
+h1 {
+    padding-right: 140px;
+    font-family: 'Yellowtail', cursive;
+}
+
+h2, h3 {
+    font-family: Courier, monospace;
+}
+ 
+
+@media only screen and (max-width: 426px) {
+    h2 {
+        font-size: larger; 
+    }
+    h1 {
+        padding:0;
+    }
+    .container {
+        display:block;
+    }
+    .content-container {
+        display: block;
+    }
+    .content-container .content-right {
+        margin-left: 0;
+        border-left: none;
+        padding-left: 0;
+        border-top: 1px solid black;
+        margin-top:10px;
+    
+    }
+}
+  
+
+
+/*
+body {
+    float:right;
+    display:flex;
+    width:35%;
+}
+
+h1 {
+    padding-bottom:30px;
+    text-align: right;
+    
+}
+
+.experience {
+    padding-top:40px;
+}
+
+.data {
+    padding-right:20px;
+    border-right: 1px solid black
+   
+    
+    
+}
+.education {
+    padding-left:10px;
+    
+}
+
+
+ h3:hover {
+    padding:5px;
+    background: rgba(0,0,0,.1);
+}
+.details h2:hover {
+    padding:5px;
+    background: rgba(0,0,0,.1);
+}
+ h1:hover {
+    padding:5px;
+    background: rgba(0,0,0,.1);
+}
+h4:hover {
+    padding:5px;
+    background: rgba(0,0,0,.1);
+}
+*/
